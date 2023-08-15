@@ -1,0 +1,144 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat&display=swap";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 1025px) {
+  .h-custom {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 992px) {
+  .card-registration-2 .bg-grey {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+}
+@media (max-width: 991px) {
+  .card-registration-2 .bg-grey {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+}
+.main-card .card {
+  margin: auto 0;
+  width: 288px;
+  height: 430px;
+  position: relative;
+}
+.main-card .card .overlay {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #FFD2D7;
+}
+.main-card .card:hover .overlay {
+  opacity: 0.9;
+  border-radius: calc(0.375rem - 1px);
+}
+.main-card .card .product-text {
+  color: #322653;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.main-card .card span {
+  color: #322653;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+#cart {
+  width: 100% x;
+  height: 350px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.btn-cart {
+  background-color: #ffffff;
+}
+.btn-cart .cart-icon {
+  color: #8062D6;
+  padding: 15px;
+}
+
+#header {
+  background-color: #322653;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+#header .navbar-brand {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+#header .nav-link {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 25px;
+}
+#header .nav-cart {
+  padding: 15px 20px;
+  margin-top: 10px;
+  background-color: #FFD2D7;
+}
+#header .nav-cart .cart-icon {
+  color: #322653;
+}
+
+#footer {
+  position: sticky;
+  top: 100%;
+  background-color: #322653;
+}
+#footer h3 {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding-top: 20px;
+}
+#footer p {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.product {
+  background-color: #9288F8;
+  position: relative;
+  top: 94px;
+  padding-bottom: 100px;
+}
+.product .card .card-bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}/*# sourceMappingURL=main.css.map */

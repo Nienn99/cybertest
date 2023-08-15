@@ -1,0 +1,13 @@
+.product {
+    background-color: $color-purple-2;
+    position: relative;
+    top: 94px;
+    padding-bottom: 100px;
+    .card {
+        .card-bottom {
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+    }
+}
